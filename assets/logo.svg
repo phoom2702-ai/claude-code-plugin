@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f0e"/>
+  
+  <!-- Glow ring background -->
+  <circle cx="128" cy="128" r="100" fill="none" stroke="#5ef2a0" stroke-width="1" opacity="0.15"/>
+  <circle cx="128" cy="128" r="85" fill="none" stroke="#5ef2a0" stroke-width="0.5" opacity="0.08"/>
+  
+  <!-- Main branching fork structure - vertical stem -->
+  <path d="M 128 40 L 128 150" stroke="#5ef2a0" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Left branch fork -->
+  <path d="M 128 95 L 78 60" stroke="#5ef2a0" stroke-width="7" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right branch fork -->
+  <path d="M 128 95 L 178 60" stroke="#5ef2a0" stroke-width="7" stroke-linecap="round" fill="none"/>
+  
+  <!-- Left branch terminal dot -->
+  <circle cx="78" cy="60" r="9" fill="#5ef2a0"/>
+  <circle cx="78" cy="60" r="5" fill="#f4f7f2"/>
+  
+  <!-- Right branch terminal dot -->
+  <circle cx="178" cy="60" r="9" fill="#5ef2a0"/>
+  <circle cx="178" cy="60" r="5" fill="#f4f7f2"/>
+  
+  <!-- Terminal caret fused at bottom of stem -->
+  <!-- Caret chevron shape pointing right -->
+  <polyline points="100,145 128,175 156,145" fill="none" stroke="#5ef2a0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Inner caret glow accent -->
+  <polyline points="112,150 128,168 144,150" fill="none" stroke="#c8d3cc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  
+  <!-- Phosphor glow dots scattered subtly -->
+  <circle cx="128" cy="40" r="4" fill="#f4f7f2" opacity="0.9"/>
+  <circle cx="128" cy="40" r="7" fill="#5ef2a0" opacity="0.25"/>
+  
+  <!-- Small underscore accent below caret -->
+  <rect x="112" y="195" width="32" height="4" rx="2" fill="#5ef2a0" opacity="0.6"/>
+  
+  <!-- Tiny code bracket accents -->
+  <path d="M 55 128 L 45 128 L 45 138" stroke="#c8d3cc" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 201 128 L 211 128 L 211 138" stroke="#c8d3cc" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  
+  <!-- Subtle scanline overlay hint -->
+  <line x1="40" y1="210" x2="216" y2="210" stroke="#c8d3cc" stroke-width="0.5" opacity="0.1"/>
+  <line x1="40" y1="218" x2="216" y2="218" stroke="#c8d3cc" stroke-width="0.5" opacity="0.06"/>
+</svg>
