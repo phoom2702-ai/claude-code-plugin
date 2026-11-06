@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="64" role="img" aria-label="Install via PowerShell">
+  <defs>
+    <linearGradient id="psb484431" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="psb484431h" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="64" rx="16" fill="url(#psb484431)"/>
+  <rect x="1" y="1" width="458" height="62" rx="15" fill="none" stroke="#60a5fa" stroke-opacity="0.45"/>
+  <rect x="1" y="1" width="458" height="30" rx="15" fill="url(#psb484431h)"/>
+  <text x="230.0" y="40.4" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">Install via PowerShell</text>
+</svg>
